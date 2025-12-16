@@ -248,7 +248,7 @@ class _GraduandLoginState extends State<GraduandLogin> {
           controller: controller,
           obscureText: isObscure,
           decoration: InputDecoration(
-            hintText: hintText, //MNOR change: improve clarity
+            hintText: hintText, //MINOR change: improve clarity
             //test showing the merge button
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10.0),
