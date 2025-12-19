@@ -23,7 +23,8 @@ class _GraduandLoginState extends State<GraduandLogin> {
 
     if (identifier.isEmpty || password.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please fill in all fields')),
+        const SnackBar(
+            content: Text('Please enter both username/email and password')),
       );
       return;
     }
